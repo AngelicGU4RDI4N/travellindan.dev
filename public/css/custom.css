@@ -1,0 +1,178 @@
+.navbar
+{
+	border-radius: 0px;
+	margin: 0px;
+}
+
+#footer
+{
+	width: 100%;
+	background-color: #F8F8F8;
+	text-align: center;
+	padding: 15px;
+	font-size: .85em;
+}
+
+.top {
+	margin-top: 0px;
+	background-size: cover;
+	background-position: center;
+	height: 400px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	box-shadow: 0px 3px 3px #888888;
+}
+
+#home-top
+{
+	background-image: url(/img/female.jpg);
+}
+
+#prices-top
+{
+	background-image: url(/img/decorativeStones.jpg);
+}
+
+#schedule-top
+{
+	background-image: url(/img/oils.jpg);
+}
+
+#faq-top
+{
+	background-image: url(/img/shells.jpg);
+}
+
+#warning-top
+{
+	background-image: url(/img/stones.jpg);
+}
+
+.top-text
+{
+	text-align: center;
+	color: white;
+	text-shadow: 1px 2px #333;
+	font-size: 3em;
+}
+
+#home-title
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#home-services
+{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	margin:50px;
+}
+
+.service
+{
+	max-width: 350px;
+	padding: 25px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	box-shadow: 3px 3px 3px 3px #888888;
+}
+
+.service:hover
+{
+	box-shadow: 3px 3px 3px 3px #ADDBF3;
+}
+
+
+@media(max-width: 400px){
+	.service
+	{
+		margin:0px;
+		box-shadow: 0px 0px 0px 0px;
+	}
+}
+
+h2
+{
+	/*color: white;*/
+	/*text-shadow: 1px 2px #333;*/
+	font-size: 2.5em;
+	text-align: center;
+}
+
+#prices-list {
+	padding: 15px;
+	margin: 25px;
+	width: 90%;
+}
+
+#prices-list h2 {
+  font: 400 40px/1.5 Helvetica, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.list ul {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.list li {
+  font: 200 1.25em/1.5 Helvetica, Verdana, sans-serif;
+  border-bottom: 1px solid #ccc;
+  max-width: 400px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  text-decoration: none;
+  color: #000;
+  display: block;
+  width: 90%;
+  text-align: center;
+
+  -webkit-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -moz-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -o-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -ms-transition: font-size 0.3s ease, background-color 0.3s ease;
+  transition: font-size 0.3s ease, background-color 0.3s ease;
+}
+
+.list li:last-child {
+  border: none;
+}
+
+.list li:hover {
+  font-size: 1.35em;
+  background: #f6f6f6;
+}
+
+a
+{
+	color: inherit;
+}
+
+a:hover
+{
+	color: #ADDBF3;
+}
+
+#scheduling-info
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	font-size: 1.2em;
+	padding: 5%;
+}
