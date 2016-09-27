@@ -5,7 +5,7 @@
 		<h1 class="top-text"> Relax in the Comfort of Your Home </h1>
 	</div>
 	<div id="home-title">
-    	<img height="400px" src="img/dan-logo.png">
+    	<img class="logo" src="img/dan-logo.png">
 		<h2>Services Offered</h2>
 	</div>
 	<div id="home-services">

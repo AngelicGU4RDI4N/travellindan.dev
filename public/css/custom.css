@@ -19,6 +19,7 @@
 	background-position: center;
 	height: 400px;
 	display:flex;
+	flex-direction: column;
 	justify-content:center;
 	align-items:center;
 	box-shadow: 0px 3px 3px #888888;
@@ -27,6 +28,11 @@
 #home-top
 {
 	background-image: url(/img/female.jpg);
+}
+
+.logo
+{
+	height: 300px;
 }
 
 #prices-top
@@ -97,9 +103,10 @@
 		margin:0px;
 		box-shadow: 0px 0px 0px 0px;
 	}
+
 }
 
-h2
+h2, h3
 {
 	/*color: white;*/
 	/*text-shadow: 1px 2px #333;*/
