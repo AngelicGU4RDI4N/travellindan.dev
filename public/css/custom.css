@@ -36,8 +36,12 @@
 .page-tabs
 {
 	padding-top: 3px;
-	margin-left: 20%;
-	margin-right: 20%;
+}
+
+.page-tabs .nav-tabs
+{
+	display: flex;
+	justify-content: space-around;
 }
 
 .logo
@@ -137,9 +141,15 @@ h2, h3
 
 }
 #prices-list {
-	padding: 15px;
-	margin: 25px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin: auto;
 	width: 90%;
+}
+
+#prices-list div
+{
+	width:50%;
 }
 
 #prices-list h2 {
@@ -160,7 +170,6 @@ h2, h3
 .list li {
   font: 200 1.25em/1.5 Helvetica, Verdana, sans-serif;
   border-bottom: 1px solid #ccc;
-  max-width: 400px;
   padding-top: 7px;
   padding-bottom: 7px;
   text-decoration: none;
