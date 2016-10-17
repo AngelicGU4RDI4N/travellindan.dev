@@ -18,8 +18,8 @@
 			When you have any of these conditions, for the safety for yourself and the therapist, please do not book a massage:
 		<p>
 		<div class="list">
-			<ul>
-				<div>
+			<div>
+				<ul>
 					<li>Fever
 					</li><li>Recent operations or acute injuries
 					</li><li>Neuritis
@@ -29,8 +29,10 @@
 					</li><li>History of Thrombosis
 					</li><li>Tendon Ruptures 
 					</li><li>Contagious diseases, including any cold or flu, no matter how mild it may seem
-				</div>
-				<div>
+				</ul>
+			</div>
+			<div>
+				<ul>
 					</li><li>Muscle Ruptures 
 					</li><li>Burns, Chilblains, and Broken Bones
 					</li><li>Periostitis
@@ -42,6 +44,7 @@
 					</li><li>Bleeding disorders such as Heamophillia
 					</li><li>Under the influence of drugs or alcohol-including prescription pain medication
 					</li>
+				</ul>
 				</div>
 			</ul>
 		</div>
