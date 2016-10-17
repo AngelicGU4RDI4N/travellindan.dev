@@ -1,11 +1,9 @@
-body > .apply-bg-color
-{
-/*	background-color: #444;
-	color: #eee;*/
-}
-
 .navbar
 {
+	background-color: #1A191F;
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
 	border-radius: 0px;
 	margin: 0px;
 }
@@ -28,17 +26,16 @@ body > .apply-bg-color
 	flex-direction: column;
 	justify-content:center;
 	align-items:center;
-	box-shadow: 0px 3px 3px #888888;
 }
 
 #home-top
 {
 	background-image: url(/img/female.jpg);
-	box-shadow: unset;
 }
 
 .page-tabs
 {
+	padding-top: 3px;
 	margin-left: 20%;
 	margin-right: 20%;
 }
@@ -207,4 +204,10 @@ a:hover
 	text-align: center;
 	font-size: 1.2em;
 	padding: 5%;
+}
+
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav>li>a
+{
+	color: #eee;
 }
