@@ -13,7 +13,10 @@
 		</ul>
 	</div>
 	<div id="home-title">
-    	<img class="logo" src="img/dan-logo.png">
+    	<div>
+    		<img class="logo" src="img/dan-logo.png">
+    		<!-- <img class="logo" src="img/massage-therapist.png"> -->
+		</div>
 		<h2>Services Offered</h2>
 	</div>
 	<div id="home-services">
