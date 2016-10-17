@@ -28,6 +28,13 @@
 #home-top
 {
 	background-image: url(/img/female.jpg);
+	box-shadow: unset;
+}
+
+.page-tabs
+{
+	margin-left: 20%;
+	margin-right: 20%;
 }
 
 .logo
@@ -96,14 +103,6 @@
 }
 
 
-@media(max-width: 400px){
-	.service
-	{
-		margin:0px;
-		box-shadow: 0px 0px 0px 0px;
-	}
-
-}
 
 h2, h3
 {
@@ -113,6 +112,27 @@ h2, h3
 	text-align: center;
 }
 
+@media(max-width: 400px){
+	.page-tabs
+	{
+		margin-left: unset;
+		margin-right: unset;
+	}
+	.service
+	{
+		margin:0px;
+		padding: 5px;
+		box-shadow: 0px 0px 0px 0px;
+	}
+	h2, h3
+	{
+		/*color: white;*/
+		/*text-shadow: 1px 2px #333;*/
+		font-size: 1.5em;
+		text-align: center;
+	}
+
+}
 #prices-list {
 	padding: 15px;
 	margin: 25px;
