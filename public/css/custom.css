@@ -211,3 +211,9 @@ a:hover
 {
 	color: #eee;
 }
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-nav>li>a:hover
+{
+	color: #ADDBF3;
+}
