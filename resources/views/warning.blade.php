@@ -4,6 +4,14 @@
 	<div id="warning-top" class="top">
 		<h1 class="top-text"> Warning! </h1>
 	</div>
+	<div class="page-tabs">
+		<ul class="nav nav-tabs">
+		  <li><a href="/">Home</a></li>
+		  <li><a href="/prices">Prices</a></li>
+		  <li class="active"><a href="/schedule">Scheduling</a></li>
+		  <li><a href="/faq">FAQ</a></li>
+		</ul>
+	</div>
 	<div id="scheduling-info">
 		<h3>Contraindications</h3>
 		<p>

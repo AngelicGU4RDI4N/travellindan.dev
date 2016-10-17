@@ -4,6 +4,14 @@
 	<div id="schedule-top" class="top">
 		<h1 class="top-text"> Scheduling </h1>
 	</div>
+	<div class="page-tabs">
+		<ul class="nav nav-tabs">
+		  <li><a href="/">Home</a></li>
+		  <li><a href="/prices">Prices</a></li>
+		  <li class="active"><a href="/schedule">Scheduling</a></li>
+		  <li><a href="/faq">FAQ</a></li>
+		</ul>
+	</div>
 	<div id="scheduling-info">
 		<p>
 			If you are trying to book an appointment please email or call me so I can verify when and what times are available. If you send me an email you will receive a response before midnight that same day.

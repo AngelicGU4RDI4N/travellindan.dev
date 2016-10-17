@@ -4,6 +4,14 @@
 	<div id="faq-top" class="top">
 		<h1 class="top-text"> Frequently Asked Questions </h1>
 	</div>
+	<div class="page-tabs">
+		<ul class="nav nav-tabs">
+		  <li><a href="/">Home</a></li>
+		  <li><a href="/prices">Prices</a></li>
+		  <li><a href="/schedule">Scheduling</a></li>
+		  <li class="active"><a href="/faq">FAQ</a></li>
+		</ul>
+	</div>	
 	<div id="scheduling-info">
 		<h3>Why do I get charged full price when I cancel within 3 hours?</h3>
 		<p>

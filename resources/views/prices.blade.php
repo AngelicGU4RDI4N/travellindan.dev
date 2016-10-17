@@ -4,6 +4,14 @@
 	<div id="prices-top" class="top">
 		<h1 class="top-text"> Detailed Prices</h1>
 	</div>
+	<div class="page-tabs">
+		<ul class="nav nav-tabs">
+		  <li><a href="/">Home</a></li>
+		  <li class="active"><a href="/prices">Prices</a></li>
+		  <li><a href="/schedule">Scheduling</a></li>
+		  <li><a href="/faq">FAQ</a></li>
+		</ul>
+	</div>
 	<div id="prices-list" class="list">
 		<ul>
 			<div>

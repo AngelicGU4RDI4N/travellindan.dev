@@ -4,6 +4,14 @@
 	<div id="home-top" class="top">
 		<h1 class="top-text"> Relax in the Comfort of Your Home </h1>
 	</div>
+	<div class="page-tabs">
+		<ul class="nav nav-tabs">
+		  <li class="active"><a href="/">Home</a></li>
+		  <li><a href="/prices">Prices</a></li>
+		  <li><a href="/schedule">Scheduling</a></li>
+		  <li><a href="/faq">FAQ</a></li>
+		</ul>
+	</div>
 	<div id="home-title">
     	<img class="logo" src="img/dan-logo.png">
 		<h2>Services Offered</h2>
